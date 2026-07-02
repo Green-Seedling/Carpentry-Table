@@ -1,0 +1,1 @@
+$loot give @s loot carpentry_table:items/$(id)

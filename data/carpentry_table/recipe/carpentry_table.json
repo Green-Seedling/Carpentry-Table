@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "=#=",
+      "-+-"
+    ],
+    "key": {
+      "#": "minecraft:crafting_table",
+      "+": "minecraft:smithing_table",
+      "=": "#minecraft:planks",
+      "-": "minecraft:iron_ingot"
+    },
+    "result": {
+      "id": "minecraft:item_frame",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": {"text":"Carpentry Table"},
+        "minecraft:lore": [{"translate":"item.carpentry_table.carpentry_table.desc1","fallback":"特殊な加工がなされた、一風変わった作業台。","color":"white","italic":false},{"translate":"item.carpentry_table.carpentry_table.desc2","fallback":"主に私作のデータパックのアイテムを作成するのに使われる。","color":"white","italic":false},{"text":"by Green_Seedling","color":"gray","italic":false}],
+        "minecraft:rarity": "uncommon",
+        "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["CarpentryTableSet"],"Invisible":true,"Fixed":true,"Silent":true},
+        "minecraft:enchantment_glint_override": true
+      }
+    }
+  }
+  

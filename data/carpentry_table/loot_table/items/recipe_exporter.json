@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {"text":"Carpentry Table"},
+                                "minecraft:lore": [{"translate":"item.carpentry_table.recipe_exporter.desc1","fallback":"Carpentry Tableに新しいレシピを追加するために使うもの。","color":"white","italic":false},{"text":"by Green_Seedling","color":"gray","italic":false}],
+                                "minecraft:rarity": "epic",
+                                "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["RecipeExporterSet"],"Invisible":true,"Fixed":true,"Silent":true},
+                                "minecraft:item_model": "minecraft:command_block_minecart",
+                                "minecraft:enchantment_glint_override": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
