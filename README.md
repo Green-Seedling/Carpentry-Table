@@ -1,1 +1,2 @@
-カスタム作業台、Carpentry Tableを追加するデータパック。
+# Carpentry-Table
+The data pack that adds carpentry table, can be used to craft custom items.
