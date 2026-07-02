@@ -20,4 +20,4 @@
     execute unless items entity @s container.26 barrier[minecraft:custom_data~{GUISpace:1b}] run function carpentry_table:recipe_exporter/gui_debug/delete_button
 
 # 表示
-    execute unless items entity @s container.16 * run item replace entity @s container.16 with light_gray_stained_glass_pane[minecraft:item_name={text:"ここに完成品を置いてください。",color:"white"},minecraft:custom_data={GUISpace:1b}]
+    execute unless items entity @s container.16 * run item replace entity @s container.16 with light_gray_stained_glass_pane[minecraft:item_name={translate:"gui.carpentry_table.result_place",fallback:"ここに完成品を置いてください。",color:"white"},minecraft:custom_data={GUISpace:1b}]
