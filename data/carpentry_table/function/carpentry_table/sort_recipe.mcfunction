@@ -29,5 +29,10 @@
     execute store result score @s C_Table.Slot_Count_8 run data get storage carpentry_table: Slots[{Slot:20b}].count
     execute store result score @s C_Table.Slot_Count_9 run data get storage carpentry_table: Slots[{Slot:21b}].count
 
-# 個数のデータは消しておく
+# 一部のデータは邪魔になるので消してしまう
     data remove storage carpentry_table: Slots[].count
+    data remove storage carpentry_table: Slots[].components."minecraft:banner_patterns"
+    data remove storage carpentry_table: Slots[].components."minecraft:custom_name"
+    data remove storage carpentry_table: Slots[].components."minecraft:damage"
+    data remove storage carpentry_table: Slots[].components."minecraft:dyed_color"
+    data remove storage carpentry_table: Slots[].components."minecraft:enchantments"

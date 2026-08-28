@@ -27,3 +27,8 @@
 # 残ったものをそのままパターンとして代入する
     data modify storage carpentry_table: Export.Data.Pattern set from storage carpentry_table: Export.Raw
     data remove storage carpentry_table: Export.Data.Pattern[].count
+    data remove storage carpentry_table: Export.Data.Pattern[].components."minecraft:banner_patterns"
+    data remove storage carpentry_table: Export.Data.Pattern[].components."minecraft:custom_name"
+    data remove storage carpentry_table: Export.Data.Pattern[].components."minecraft:damage"
+    data remove storage carpentry_table: Export.Data.Pattern[].components."minecraft:dyed_color"
+    data remove storage carpentry_table: Export.Data.Pattern[].components."minecraft:enchantments"
