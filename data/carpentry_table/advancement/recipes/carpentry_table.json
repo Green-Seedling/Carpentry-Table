@@ -13,7 +13,7 @@
       "has_the_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "carpentry_table:carpentry_table"
+          "recipes": "carpentry_table:carpentry_table"
         }
       }
     },

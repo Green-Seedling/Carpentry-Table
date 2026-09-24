@@ -3,7 +3,7 @@ execute if entity @e[tag=9977sGUI,distance=..0.05] run tag @s add PlacedHere
 execute unless block ~ ~ ~ #carpentry_table:no_collision run tag @s add PlacedHere
 
 #召喚
-execute unless entity @s[tag=PlacedHere] run summon chest_minecart ~ ~ ~ {CustomName:{"text":"Recipe Exporter"},CustomNameVisible:1b,DisplayOffset:4,Tags:["9977RecipeExporter","9977sGUI"],NoGravity:1b,Silent:1b,Invulnerable:1b,DisplayState:{Name:"minecraft:crafter"}}
+execute unless entity @s[tag=PlacedHere] run summon chest_minecart ~ ~ ~ {CustomName:{"text":"Recipe Exporter"},CustomNameVisible:1b,DisplayOffset:4,Tags:["9977RecipeExporter","9977sGUI"],NoGravity:1b,Silent:1b,Invulnerable:1b,DisplayState:{id:"minecraft:crafter"}}
 execute unless entity @s[tag=PlacedHere] run execute as @e[tag=9977RecipeExporter,sort=nearest,limit=1] at @s run function carpentry_table:recipe_exporter/gui
 execute unless entity @s[tag=PlacedHere] run setblock ~ ~ ~ air
 
